@@ -15,8 +15,8 @@ public class Tarefa {
 	private final long MINUTO = SEGUNDO * 60;
 	private final long HORA = MINUTO * 60;
 
-//    private String urlJob = "http://3.237.51.217/tarefa/grupo/job";
-	private String urlJob = "https://academicquest.com.br/tarefa/grupo/job";
+//	private String urlJob = "https://academicquest.com.br/tarefa/grupo/job";
+	private String urlJob = "http://localhost:8080/tarefa/grupo/job";
 
 	@Autowired
 	private RestTemplate restTemplate;
