@@ -21,8 +21,8 @@ public class Tarefa {
 	@Autowired
 	private RestTemplate restTemplate;
 
-	@Scheduled(cron = "*/10 * * * * *")
-//    @Scheduled(cron = "0 0 0 * * *")
+//	@Scheduled(cron = "*/10 * * * * *")
+    @Scheduled(cron = "0 0 0 * * *")
 	public void taskExecutada() {
 
 		System.out.println("Executando job...");
